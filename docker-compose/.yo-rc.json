@@ -1,0 +1,10 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["masi-api"],
+    "directoryPath": "../",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "YTMxMzIyYzVmMzkxZTgxNmZhODhiNmYyODY2OGJhZDA5ZGM1NTMwZTY0NmJiY2Y3MTExN2VmNzI3NTFlMmEwN2YwOGYzMjU5ZTU0ZDZhN2FkMTkyMGMyNTRiN2QxNTM2NDYzNg==",
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "consul"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20240409082259"
+  },
+  "applications": "*",
+  "clientRootFolder": "MasiEmployee",
+  "databaseType": "sql",
+  "documentation": "Task entity.\\n@author The JHipster team.",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "MasiEmployee",
+  "name": "Task",
+  "relationships": [
+    {
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "job",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

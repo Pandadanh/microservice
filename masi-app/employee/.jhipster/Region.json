@@ -1,0 +1,19 @@
+{
+  "annotations": {
+    "changelogDate": "20240409082255"
+  },
+  "applications": "*",
+  "clientRootFolder": "MasiEmployee",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "MasiEmployee",
+  "name": "Region",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

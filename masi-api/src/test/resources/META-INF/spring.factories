@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = com.carevn.masi.\
+    config.TestContainersSpringContextCustomizerFactory,com.carevn.masi.config.\
+    SqlTestContainersSpringContextCustomizerFactory

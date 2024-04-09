@@ -1,0 +1,19 @@
+App name : MasiEmployee
+Type : Microservice app
+Testing Framework : Cucumber
+Spring WebFlux : Y
+Port : 8081 (each service must be different port from 8081-80xx)
+Package name : com.masi.employee
+Service Discovery : Consul
+Authentication : JWT
+Database : PostgreSQL
+Dev DB : PostgreSQL
+Spring cache abstraction : Hazelcast
+Hibernate 2nd level cache : Y
+Builder : Maven
+Search Engine : Elasticsearch
+Microfrontend : No client
+International Support : EN/VI
+JDL : hr.jdl 
+Start app : ./mvnw
+Import JDL : jhipster jdl jdl/hr.jdl
